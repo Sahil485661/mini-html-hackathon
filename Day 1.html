@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of Web Dev</title>
+</head>
+<body>
+    <h1><pre>                                   Introduction of Web Development</pre></h1>
+    <hr>
+    <nav>
+        <pre>
+        <h3><a href="#Internet">🌐Internet</a>     <a href="#IP">🌐IP Address</a>      <a href="#Dns">🌐D.N.S.</a>      <a href="#Mac">💻Mac Address</a>        <a href="#web dev">🛜Web Development</a></h3>
+        </pre>
+    </nav>
+    <hr>
+    <nav>
+    <h3>
+    <ul><li><a href="index.html">Home</a></li>
+        <li><a href="Day 1.html">Introduction to Web devlopement</a></li>
+        <li><a href="Day 2.html">HTML Basics</a></li>
+        <li><a href="Day 3.html">List and Table</a></li>
+        <li><a href="Day 4.html">File, Path, Divs etc</a></li>
+        </ul>
+        </h3>
+        </nav>
+    <hr>
+    <h2 id="Internet" >🌐 Topic: The Internet</h2>
+    <p>The internet is a giant, global network connecting billions of computers. When you visit a website, your computer (the <strong>client</strong>) sends a request to another computer (the <strong>server</strong>) where the website is stored. The server then sends the website's data back to your computer so you can see it.</p>
+    <h2>How The Internet Work</h2>
+    <table><tr><td><img src="https://miro.medium.com/v2/resize:fit:1200/0*HqgKUgDYreRRxn7T" width="500px" height="300px" alt="internet working 1"></td>
+        <td><img src="https://media.geeksforgeeks.org/wp-content/uploads/20220602145532/HowDoesitWorkWhenYouGoogleFromaWebBrowser.png" width="500px" height="300px" alt="internet working"></td>
+        </tr>
+        <tr><td>
+    <p>1. <strong>The Request (Client and DNS):</strong>
+        Your computer or phone is a client. When you type a website address (like www.google.com) into your browser, you're giving the system a destination. However, computers don't use names; they use numbers called IP addresses.
+        The Domain Name System (DNS) acts as the internet's phonebook. It translates the website name you typed into its corresponding IP address.</p>
+    </td>
+    </tr>
+    <tr><td>
+    <p><strong>2. The Journey (Packets and Routers):</strong>
+        Once your computer knows the server's IP address, it breaks down your request into smaller pieces called packets. Each packet is like a tiny part of a letter, containing a piece of the information, the destination IP address, and your return IP address.
+        These packets travel through a vast network of physical connections, including fiber optic cables, copper wires, and wireless signals. Routers act like traffic police, directing these packets along the fastest and most efficient path to their destination. The packets from a single request might even take different routes to get to the same place</p>
+    <p> <strong>3. The Destination (Servers)</strong>
+        The packets arrive at the server, a powerful computer that stores the website's files (text, images, videos, etc.). The server collects all the packets and reassembles them to understand your request.</p>
+    </td>
+    </tr>
+    </table>
+    <div id="new">
+         <pre><h3>Here we see how our message gone Client to Server</h3></pre>
+        <pre>
+    <table border="1">
+        <tr><td>Client --></td>
+        <td>IP Address</td>
+        <td>-->Server</td></tr>
+        <tr><td>112.12.34.5</td>
+        <td>Hi(message)</td>
+        <td>12.3.43.31</td></tr>
+    </table>
+    </pre>
+    </div>
+    <hr>
+    <h2 id="IP">IP address</h2>
+    <img src="https://www.akamai.com/site/en/images/promo/2023/what-is-ip-address-video.jpg" width="500px" height="300px" >
+    <p>An Internet Protocol (IP) address is essentially a unique identification number for machines connected to any network. You could view this as a mailing address, just for your online activity. Since they were first developed in the 1970s, IP addresses have evolved to define how devices interact on the internet. IP addresses are like GPS locations for devices (including servers) on any network. Whether you're simply surfing the web, watching a video on YouTube, or booking your next holiday, IP addresses are certainly involved. Read more about IP addresses on Wikipedia.
+    </p>
+    <h2>How does it work</h2>
+    <p>IP addresses are typically assigned to devices by an Internet Service Provider (ISP). Since ISPs provide you with access to the internet, it's their responsibility to assign an IP address to your device. For instance, if AT&T or COX is your ISP, they're responsible for assigning IPs to your devices. When you attempt to connect to their internet, your online activity first goes to your ISP and is immediately routed to your device via your IP address. Note that while IPv4 offers a limited number of addresses that can be assigned, this is not the case with IPv6.</p>
+    <img src="https://www.howtogeek.com/wp-content/uploads/2018/01/image-2-1.png" width="500px" height="300px" alt="">
+    <img src="https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2013/07/see-whos-connected-to-router.png?q=50&fit=crop&w=825&dpr=1.5" width="500px" height="300px" alt="">
+    <h2>Q. Who is Giving us IP Address</h2>
+    <p><Strong>Ans:</Strong>IP address is given by Internet Service Provider(Airtel, VI, JIO, BSNL)</p>
+    <hr>
+    <h2 id="Dns">🌐 Domain Name System</h2>
+    <p>The Domain Name System (DNS) is the internet's phonebook. It translates human-friendly domain names, like <strong>www.google.com</strong>, into the numerical IP addresses that computers use to identify each other, such as 172.217.167.78.</p>
+    <h2>💁Why we use DNS</h2>
+    <p>It's much easier for people to remember a name than a long string of numbers. Imagine trying to memorize the phone numbers of all your friends instead of just saving their names in your contacts. DNS does the same thing for websites—it saves you from having to remember the IP address for every site you want to visit.</p>
+    <h2>🧑‍🏭How it is Work</h2>
+   <table><tr><td> <img src="https://www.sunnyvalley.io/docs/assets/images/how-does-dns-work-05b05a630a5eb3179da3007df590e80f.png" height="300px" alt="working"></td>
+   <td><img src="https://cdn-images-1.medium.com/max/1600/1*T-UR9mJuY4v2R8QWwm-KZw.jpeg" height="300px" alt="working 2"></td>
+    </tr></table>
+    <p>The process is simple and happens in milliseconds:
+
+<p><strong>1. You Enter a Domain Name:</strong> You type www.google.com into your web browser and hit Enter.</p>
+
+<p><strong>2. Browser Asks DNS:</strong> Your browser sends a query to a DNS server asking, "What is the IP address for google.com?"</p>
+
+<p><strong>3. DNS Finds the Match:</strong> The DNS server looks up the domain name in its directory and finds the corresponding IP address.</p>
+
+<p><strong>4. IP Address is Sent Back:</strong> The DNS server sends this IP address back to your browser.</p>
+
+<p><strong>5. Browser Connects:</strong> Your browser now has the correct numerical address to connect directly to Google's server and load the webpage.</p></p>
+<hr>
+<h2 id="Mac">MAC Address</h2>
+<table><tr><td><img src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2023_02_MicrosoftTeams-image-136.jpg" height="300px" alt="mac address"></td>
+    <td><img src="https://2.bp.blogspot.com/-6W8597muHUY/Wy2648zBfUI/AAAAAAAAB1Q/AlfI7yOw-s0Qpj8VDqcm17XeTWdri8SsACLcBGAs/s1600/What%2Bis%2BMAC%2BAddress.png" height="300px" alt=""></td></tr></table>
+<p>A MAC (Media Access Control) address is a unique identifier assigned to a network interface controller (NIC) of a device. Think of it as a physical serial number or a digital fingerprint for your device's hardware, like your computer, phone, or router.</p>
+<h2>MAC Address Feature</h2>
+<p><strong>Uniqueness:</strong> Every device has a globally unique MAC address. No two devices in the world share the same one.</p>
+
+<p><strong>Format:</strong> It's a 12-digit hexadecimal number, typically written in six pairs separated by colons or hyphens, like 00:1A:2B:3C:4D:5E.</p>
+
+<p><strong>Permanence:</strong> The address is burned into the device's hardware by the manufacturer and doesn't change, no matter where you connect to the internet.</p>
+<hr>
+<h2 id="web dev">Web Development</h2>
+<table><tr><td><img src="https://w3-lab.com/wp-content/uploads/2019/12/Get-the-Most-Fancied-Web-Development-Services-min-scaled.jpg" height="300px" alt="web design"></td>
+<td><img src="https://www.news-reporter.com/wp-content/uploads/2023/04/Future-Of-Web-Development-1-scaled.webp" height="300px" alt="web design2"></td></tr></table>
+<p>Web development is the work involved in creating, building, and maintaining websites and web applications. It's everything that happens behind the scenes to make a website look great, work fast, and perform well with a seamless user experience.
+<p>Think of it like building a house. You have the architects who design it, the construction workers who build the structure, and the electricians and plumbers who make everything functional. Web development has similar roles, which are typically broken down into three main areas:</p>
+<h2>1. Front-End Development (The "Client-Side")
+</h2>
+<p>
+The front-end is everything the user sees and interacts with in their browser. It's the visual part of the website—the layout, colors, buttons, and menus. The goal of a front-end developer is to ensure the website is easy to read, navigate, and visually appealing.</p>
+<ul><li><h2>Core Technologies:</h2>
+    <ul><li><strong>HTML (HyperText Markup Language):</strong> The fundamental structure of a website, like the frame of the house.</li>
+    <li><strong>CSS (Cascading Style Sheets):</strong> Used for styling and presentation, such as colors, fonts, and layout. It's the paint and decoration.</li>
+    <li><strong>JavaScript:</strong> Adds interactivity and dynamic features, like clickable buttons, animations, and pop-ups. It's the engine and electronics that make the car run.
+</li></ul>
+</li></ul>
+<h2> Back-End Development (The "Server-Side")</h2>
+<p>The back-end is the "under the hood" part of a website that the user doesn't see. It includes the server, database, and application logic that power the front-end. It handles tasks like user authentication (logging in), processing data from forms, and storing information.</p>
+<ul><li><h2>Core Technologies:
+
+</h2>
+<ul><li><strong>Programming Languages:</strong> Python, Java, Ruby, PHP, and Node.js are used to write the application.</li>
+<li><strong>Databases:</strong> MySQL, PostgreSQL, and MongoDB are used to store and manage data.</li>
+<li><strong>Servers:</strong> Apache and Nginx are web servers that handle requests from the front-end.</li></ul>
+</li>
+</ul>
+<h2>3. Full-Stack Development</h2>
+<p>A full-stack developer is a jack-of-all-trades who is comfortable working on both the front-end and the back-end. They have a complete understanding of how the entire web application works, from the user interface to the database.</p>
+<video src="video/Video_Generation_For_Day_Topics.mp4"  width="900px" controls></video>
+    <br><br>
+    <div class="conc">
+    <pre>                                                               <button onclick="history.back()" >Previous</button>                                             <button onclick="location.href='Day 2.html'">Next</button></pre>
+    </div>
+
+</body>
+</html>

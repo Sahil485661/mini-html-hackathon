@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+</head>
+<body>
+    <pre><h1>                                   File, Path, Boiler Plate and Div| Class| ID</h1></pre>
+    <hr>
+    <nav>
+        <pre>
+            <h3><a href="#boiler">🏷️HTML Boiler Plate</a>             <a href="#file">🏷️File, Path</a>              <a href="#div">🏷️Div Container</a>            <a href="#class">🏷️Class Selector</a>             <a href="#id">🏷️Id Selector</a></h3>
+        </pre>
+    </nav>
+    <hr>
+    <h3>
+    <ul><li><a href="index.html">Home</a></li>
+        <li><a href="Day 1.html">Introduction to Web devlopement</a></li>
+        <li><a href="Day 2.html">HTML Basics</a></li>
+        <li><a href="Day 3.html">List and Table</a></li>
+        <li><a href="Day 4.html">File, Path, Divs etc</a></li>
+        </ul>
+    </h3>
+    <hr>
+    <div id="boiler">
+        <h2>Boiler Plate of HTML</h2>
+        <img src="https://i.ytimg.com/vi/H94oHk7AMLw/maxresdefault.jpg" width="700px" alt="boiler image">
+        <p>Boilerplate code is a standardized, reusable block of code that's used as a starting template for a new document. In HTML, the boilerplate provides the basic foundational structure that every web page needs to function correctly in a browser.</p>
+        <p>You can typically generate it in a code editor like VS Code by typing <code>"!"</code> and pressing <code>"Enter"</code>.</p>
+        <h2>What comes when you press <code>"!"</code> and then hit <code>"Enter"</code></h2>
+        <p><pre>&lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </pre>
+        </p>
+        <h2>BreakDown of Boiler Plate</h2>
+        <ul><li><b>&lt;!DOCTYPE html&gt;</b>: This is the very first thing in your document. It declares that the page is an HTML5 document, which tells the browser how to read and render the code.</li>
+            <li><b>&lt;html lang="en"&gt;&lt;/html&gt;</b>: This is the root element that wraps all the content on the page. The <code>lang="en"</code> attribute specifies that the page's primary language is English, which helps with accessibility and search engines.</li>
+            <li><b>&lt;head&gt;</b>: This section contains meta-information about the web page that is not displayed directly on the page itself. It includes things like the title, character set, and links to stylesheets.</li>
+            <li><b>&lt;meta charset="UTF-8"&gt;</b>: This specifies the character encoding for the document. UTF-8 is a universal character set that includes almost any character from any human language, including emojis, preventing issues with displaying text.</li>
+            <li><b>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</b>: This is crucial for responsive design. It tells the browser to set the width of the page to the screen-width of the device and set the initial zoom level to 1. This makes your website look good on all devices, from desktops to mobile phones.</li>
+            <li><b>&lt;title&gt;Document&lt;/title&gt;</b>:  This sets the title of the web page, which appears in the browser tab and in search engine results.</li>
+            <li><b>&lt;body&gt;</b>: This is the main content of the page. It contains all the visible elements of the page, such as headings, paragraphs, images, links, and more.</li>
+        </ul>
+        <h2 id="#file">File and Path in HTML</h2>
+        <img src="https://www.educba.com/academy/wp-content/uploads/2020/03/File-Path-in-HTML.jpg" width="700" alt="filepath">
+        <p>File is a single unit of data that contains information about a specific thing. For example, a file might be a photo, a document, or a program.</p>
+        <p>Path is a way to navigate to a specific file or folder within a computer's file system. It is a sequence of folders and subfolders that lead to the desired file or folder.</p>
+        <p>There are two main types of file paths: Absolute and Relative.</p>
+        <table><tr><td><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1668997935960/Bi9afGhND.png?auto=compress,format&format=webp" alt="types of file"></td></tr></table>
+        <h2>Absolute Path</h2>
+        <img src="https://myschoolhouse.in/admin-panel/assets/uploads_img/65ae34118ede0_D_22_01_2024_T_09_23_29am.jpeg" width="700px" alt="absolute">
+        <p>Absolute paths are the most specific and direct way to navigate to a file or folder. They specify the exact location of the file or folder on the computer's file system.</p>
+        <p><b>Analogy:</b> It's like giving someone a full mailing address, including the country, city, street, and house number.</p>
+        <p>Example: C:\Users\username\Documents\project\index.html</p>
+        <h2>Relative Path</h2>
+        <p>Relative paths are the least specific and indirect way to navigate to a file or folder. They are relative to the current location of the file or folder.</p>
+        <p><b>Analogy:</b> It's like giving someone a partial mailing address, including the city, street, and house number, but leaving out the country and the username.</p>
+        <p>Example Folder structure:
+            <h3>📁 my-website/</h3>
+        <ul>
+            <li>📄 index.html</li>
+            <li>📄 contact.html</li>
+            <li>📁 images/
+            <ul>
+                <li>🖼️ photo.jpg</li>
+            </ul>
+            </li>
+        </ul>
+        </p>
+        <p>Example: ./index.html</p>
+        </div>
+    <div id="div">
+        <h2>🏷️Div Tag</h2>
+        <table><tr><td><img src="https://tse4.mm.bing.net/th/id/OIP.RxuQbaMCpoFwKVKzAZbXMAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" width="" alt=""></td>
+        <td><img src="https://spot.pcc.edu/~mbudiman/class-materials/images/html4-div-sample-page.png" width="300px" alt=""></td>
+        <td><img src="https://cdn.storyboardthat.com/storyboard-srcsets/templates/tw-portrait-bw-1.png" width="220px" alt=""></td></tr></table>
+        <p>The &lt;div&gt; tag in HTML, which stands for division, is used to group elements on a web page. It is a container that can hold other HTML elements inside of it.</p>
+        <p><h3>Example:</h3><b>&lt;div&gt;This is a div element&lt;/div&gt;</b></p>
+        <p><div>This is a div element</div></p>
+        <h2>
+            Why we use Div 
+        </h2>
+        <p>The primary purpose of a &lt;div&gt; is to create a block-level container around a section of your page. This is useful for:</p>
+        <ol>
+            <li><b>Styling with CSS:</b> You can apply styles (like backgrounds, borders, or specific layouts) to an entire group of elements at once.</li>
+            <li><b>Structuring a Layout:</b>It's fundamental for creating page layouts, such as headers, footers, sidebars, and content areas.</li>
+            <li><b>Manipulating with JavaScript:</b> It makes it easy to select and control an entire section of your page with JavaScript.</li>
+        </ol>
+        <p>Example:</p>
+        <pre>&lt;div class="product-card"&gt;
+        &lt;img src="images/shoe.jpg" alt="A running shoe"&gt;
+        &lt;h2&gt;Cool Running Shoe&lt;/h2&gt;
+        &lt;p&gt;This is the best shoe for running, buy it now!&lt;/p&gt;
+        &lt;/div&gt;
+        </pre>
+    </div>
+    <div id="class">
+        <h2>🥷Class</h2>
+        <table><tr><td><img src="https://tse3.mm.bing.net/th/id/OIP.h62tX9t92YAfiZxQIUmrQAHaD4?rs=1&pid=ImgDetMain&o=7&rm=3"  alt=""></td>
+        <td><img src="https://dotnettutorials.net/wp-content/uploads/2021/10/word-image-146.png" width="500px" alt=""></td>
+    </tr></table>
+        <p>The class attribute in HTML is used to assign a name or a label to one or more elements. It's one of the most common ways to group elements together so you can apply the same styles or behaviors to them.Think of it like a "category" or a "group name." You can give the same class to many elements.</p>
+        <h2>Use of Class</h2>
+        <p><b>Many-to-One:</b> Multiple elements on a page can have the same class name.</p>
+        <p><b>One-to-Many:</b> A single element can have multiple classes, separated by spaces.</p>
+        <p><b>Styling:</b> Its primary use is to allow CSS to select and style specific groups of elements.</p>
+        <p><b>JavaScript:</b> It's also used by JavaScript to find and manipulate groups of elements.</p>
+        <h2>How It's Used</h2>
+        <p>Let's say you have several notes on your page, but you want some of them to look more important. You can assign them a class.</p>
+        <pre>
+        &lt;div class="note"&gt;
+        &lt;p&gt;This is a standard note.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="note important"&gt;
+        &lt;p&gt;This is an important note.&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class="note"&gt;
+        &lt;p&gt;This is another standard note.&lt;/p&gt;
+        &lt;/div&gt;
+
+        </pre>
+    <p>In your CSS, you could then style them like this:
+        <ol><li><p>Use .note to style all the notes (e.g., give them all a gray border).</p></li>
+        <li><p>Use <code>.important</code> to add extra styling only to the important notes (e.g., make the border red and the text bold).</p></li>
+        </ol>
+    </p>
+    </div>
+    <div id="id">
+        <h2>🪪ID In HTML</h2>
+        <table><tr><td><img src="https://tse3.mm.bing.net/th/id/OIP.ggpeeG066Bl-wouLS8ex_QHaD4?rs=1&pid=ImgDetMain&o=7&rm=3" alt=""></td>
+        <td><img src="https://dotnettutorials.net/wp-content/uploads/2021/10/word-image-152.png" alt=""></td></tr></table>
+        <p>The id attribute in HTML is used to assign a unique identifier to a single element on a web page.Think of it like a unique student ID number or a social security number—no two elements on the same page should ever have the same id.</p>
+        <h2>How We Use</h2>
+        <p>1. You can add an id to almost any HTML element.</p>
+        <b>Example</b>
+        <pre>
+            &lt;div id="main-header"&gt;
+            &lt;h1&gt;My Website&lt;/h1&gt;
+            &lt;/div&gt;
+
+            &lt;p&gt;Some content...&lt;/p&gt;
+
+            &lt;div id="footer-section"&gt;
+            &lt;p&gt;&amp;copy; 2025 My Website&lt;/p&gt;
+            &lt;/div&gt;
+
+        </pre>
+        <p>2. In CSS, you would select these elements with a hash (#) symbol:</p>
+        <b>Example</b>
+        <pre>
+            &lt;style&gt;
+            #main-header {
+                background-color: blue;
+            }
+            #footer-section {
+                border-top: 1px solid gray;
+            }
+            &lt;/style&gt;
+        </pre>
+        <p>3. In JavaScript, you would use getElementById to find a specific element.</p>
+    </div>
+</body>
+<footer><p><pre>                                                                           CopyRight &copy;: All Rights Are Reserved 2000-2025</pre></p>
+            <p><pre>                                                               <button onclick="location.href='Day 3.html'">Previous</button>                                                   <button onclick="location.href='index.html'">Next</button></pre></p>
+</footer>
+</html>

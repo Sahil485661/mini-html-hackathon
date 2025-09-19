@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+</head>
+<body>
+    <pre><h1>                                  Today We UnderStand List And Table Tag</h1></pre>
+    <hr>
+    <pre><h3><a href="#list">📃 List in HTML</a>                <a href="#table">📑 Table in HTML</a></h3></pre>
+    <hr>
+    <h3>
+    <ul><li><a href="index.html">Home</a></li>
+        <li><a href="Day 1.html">Introduction to Web devlopement</a></li>
+        <li><a href="Day 2.html">HTML Basics</a></li>
+        <li><a href="Day 3.html">List and Table</a></li>
+        <li><a href="Day 4.html">File, Path, Divs etc</a></li>
+        </ul>
+    </h3>
+    <div id="list">
+        <h2>🏷️List in HTML</h2>
+        <table><tr><td><img src="https://tutorialdeep.com/wp-content/uploads/2017/04/listtag.png" width="400px" alt="List"></td>
+        <td><img src="https://www.petanikode.com/img/html/list/ol.png" width="400px" alt="list2"></td>
+        <td><video src="./video/Video_Generation_List_and_Table_Tags.mp4" controls width="400px"></video></td>
+        </tr></table>
+        <p>In HTML, lists are used to group a set of related items. There are three main types of lists: unordered, ordered, and description lists.</p>
+        <h2>Types of List</h2>
+        <ol><li><h3>Ordered List</h3></li>
+            <li><h3>Unordered List</h3></li>
+            <li><h3>Description List</h3></li>
+        </ol>
+        <hr>
+        <h2>Ordered List</h2>
+        <p>An ordered list is used when the sequence of the items is important. It creates a numbered list. The list is defined with the &lt;ol&gt; tag, and each item is also defined with the &lt;li&gt; tag.&lt;/p&gt;
+        <h3>Example</h3>
+        <pre><code>
+        &lt;ol&gt;
+        &lt;li&gt;Preheat the oven.&lt;/li&gt;
+        &lt;li&gt;Mix the ingredients.&lt;/li&gt;
+        &lt;li&gt;Bake for 30 minutes.&lt;/li&gt;
+        &lt;/ol&gt;
+        </code></pre>
+        </p>
+        <h3>Output</h3>
+        <p><ol>
+        <li>Preheat the oven.</li>
+        <li>Mix the ingredients.</li>
+        <li>Bake for 30 minutes.</li>
+        </ol></p>
+        <hr>
+        <marquee behavior="scroll" direction="Right"><img src="https://tse3.mm.bing.net/th/id/OIP.XyFGJ-3eixEkCu-hztfXggHaGg?rs=1&pid=ImgDetMain&o=7&rm=3" width="600px" alt="list3"></marquee>
+        <h2>Unordered List</h2>
+        <p>An unordered list is used when the order of the items doesn't matter. It creates a bulleted list. The list is defined with the &lt;ul&gt; tag, and each item within it is defined with the &lt;li&gt; (list item) tag.</p>
+        <h3>Example</h3>
+        <p>Example kuch iss prakar hoga</p>
+        <pre>
+        &lt;ul&gt;
+        &lt;li&gt;Milk&lt;/li&gt;
+        &lt;li&gt;Bread&lt;/li&gt;
+        &lt;li&gt;Cheese&lt;/li&gt;
+        &lt;/ul&gt;
+        </pre>
+        <h3>Output</h3>
+        <ul>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Cheese</li>
+        </ul>
+        <hr>
+        <h2>Description List &lt;dl&gt;</h2>
+        <p>A description list is used for grouping terms with their corresponding descriptions, like in a dictionary or glossary.</p>
+        <ul><li>&lt;dl&gt; (description list): The container for the entire list.</li>
+            <li>&lt;dt&gt; (description term): The term to be defined.</li>
+            <li>&lt;dd&gt; (description details): The description of the term.</li>
+        </ul>
+        <h3>Example</h3>
+        <p>Iske Example Ye hai </p>
+        <pre>
+        &lt;dl&gt;
+        &lt;dt&gt;HTML&lt;/dt&gt;
+        &lt;dd&gt;HyperText Markup Language, the standard for creating web pages.&lt;/dd&gt;
+        &lt;dt&gt;CSS&lt;/dt&gt;
+        &lt;dd&gt;Cascading Style Sheets, used for styling the look of a web page.&lt;/dd&gt;
+        &lt;/dl&gt;
+        </pre>
+        <h3>Output</h3>
+        <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language, the standard for creating web pages.</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets, used for styling the look of a web page.</dd>
+        </dl>
+
+    </div>
+    <hr>
+    <div id="table">
+        <h2>🏷️Table in HTML</h2>
+        <pre>                                       <img src="https://tse4.mm.bing.net/th/id/OIP.jaDVjWYLUMhG8OUlua7CGAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" width="700px" alt=""></pre>
+        <p>The &lt;table&gt; tag in HTML is used to display data in a grid-like format of rows and columns.</p>
+        
+  <h2>Essential HTML Table Tags</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Tag</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;table&gt;</td>
+        <td>The main container for the entire table.</td>
+      </tr>
+      <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Creates a row within the table.</td>
+      </tr>
+      <tr>
+        <td>&lt;th&gt;</td>
+        <td>Defines a header cell. Text inside a &lt;th&gt; is typically bold and centered by default. It should be placed inside a &lt;tr&gt;.</td>
+      </tr>
+      <tr>
+        <td>&lt;td&gt;</td>
+        <td>Defines a standard data cell. It should also be placed inside a &lt;tr&gt;.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Basic Table Structure</h2>
+  <pre>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;First Name&lt;/th&gt;
+        &lt;th&gt;Last Name&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;John&lt;/td&gt;
+        &lt;td&gt;Doe&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Jane&lt;/td&gt;
+        &lt;td&gt;Smith&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/table&gt;
+    </pre>
+    <h2>Output</h2>
+    <table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Smith</td>
+  </tr>
+</table>
+<hr>
+<h2>Advanced & Semantic Structure</h2>
+<p>For more complex and accessible tables, you can use additional tags to structure the content semantically.</p>
+<table border="1">
+    <tr>
+        <td>&lt;thead&gt;:</td>
+        <td>Groups the header content (&lt;th&gt; rows).</td>
+    </tr>
+    <tr>
+        <td>&lt;tbody&gt;</td>
+        <td>Groups the main body content (&lt;td&gt; rows).</td>
+    </tr>
+    <tr>
+        <td>&lt;tfoot&gt;</td>
+        <td>Groups the footer content of the table.</td>
+    </tr>
+    </table> 
+    <p>These tags help browsers and screen readers understand the table's structure, but they don't change the visual layout by default.</p> 
+    <h2>Spanning Columns and Rows</h2>
+    <p>You can make cells span across multiple columns or rows using special attributes:</p>
+    <table>
+        <tr>
+            <td>colspan</td>
+            <td> Merges a cell with cells to its right.</td>
+        </tr>
+        <tr>
+            <td>rowspan</td>
+            <td>Merges a cell with cells below it.</td>
+        </tr>
+    </table>
+    <h2>Example with all Feature</h2>
+    <p>Hum Yaha par sabhi feature table ke ek baar me dekhenge </p>
+    <pre>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th colspan="2"&gt;Contact Details&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+        &lt;td rowspan="2"&gt;John Doe&lt;/td&gt;
+        &lt;td&gt;Email&lt;/td&gt;
+        &lt;td&gt;john.doe@example.com&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td&gt;Phone&lt;/td&gt;
+        &lt;td&gt;555-1234&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;/table&gt;
+    </pre>
+
+    <h2><Output>Output</Output></h2>
+    <table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Contact Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2">John Doe</td>
+      <td>Email</td>
+      <td>john.doe@example.com</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>555-1234</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<footer>
+     <p><pre>                                                                           CopyRight &copy;: All Rights Are Reserved 2000-2025</pre></p>
+            <p><pre>                                                               <button onclick="location.href='Day 2.html'">Previous</button>                                                   <button onclick="location.href='Day 4.html'">Next</button></pre></p>
+        
+</footer>
+</body>
+</html>
